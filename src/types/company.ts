@@ -8,6 +8,7 @@ export interface Company {
   website: string;
   description: string;
   logo: string;
+  location: string;
 }
 
 export type ViewType = 'table' | 'card'
