@@ -179,9 +179,9 @@ export function CompanyDirectoryProvider({
 
   // Pagination
   const totalPages = Math.ceil(
-    filteredAndSortedCompanies.length / ITEMS_PER_PAGE,
+    filteredAndSortedCompanies().length / ITEMS_PER_PAGE,
   );
-  const paginatedCompanies = filteredAndSortedCompanies.slice(
+  const paginatedCompanies = filteredAndSortedCompanies().slice(
     (currentPage - 1) * ITEMS_PER_PAGE,
     currentPage * ITEMS_PER_PAGE,
   );
