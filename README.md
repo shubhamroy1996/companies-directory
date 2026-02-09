@@ -1,10 +1,14 @@
 # Companies Directory
 
 A modern React application that displays a comprehensive directory of companies with filtering and search capabilities.
+<img width="1508" height="673" alt="image" src="https://github.com/user-attachments/assets/f2c1ac85-50fb-46d2-baa6-0f05ba03bec5" />
+
+<img width="1557" height="622" alt="image" src="https://github.com/user-attachments/assets/749dd295-2baa-4958-b2eb-6664a5362d00" />
+
 
 ## Project Overview
 
-Companies Directory is a full-featured web application built with React and TypeScript that allows users to browse, filter, and search through a database of companies. The application provides detailed information about each company including industry, location, employee count, founding date, revenue, and more.
+Companies Directory is a scalable web application built with React and TypeScript that enables users to efficiently browse, search, and filter a large dataset of companies. It supports advanced filtering, fast offset-based pagination, and seamless switching between table and card views without any responsiveness issues. The application delivers detailed company insights such as industry, location, employee count, founding date, revenue, and more, with a strong emphasis on performance and smooth user experience.
 
 ## Features
 
