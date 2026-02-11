@@ -1,4 +1,4 @@
-import { Skeleton } from './ui/skeleton';
+import { Skeleton } from "./ui/skeleton";
 
 export function CompanyCardsSkeleton() {
   return (
@@ -30,7 +30,10 @@ export function CompanyCardsSkeleton() {
           {/* Stats Grid skeleton */}
           <div className="w-full grid grid-cols-2 gap-1 sm:gap-2 mb-2 sm:mb-3 p-1 sm:p-2 rounded-lg sm:rounded-xl">
             {Array.from({ length: 4 }).map((_, statIndex) => (
-              <div key={statIndex} className="flex flex-col items-center text-center space-y-1">
+              <div
+                key={statIndex}
+                className="flex flex-col items-center text-center space-y-1"
+              >
                 <Skeleton className="h-3 w-3 rounded-full" />
                 <Skeleton className="h-2 w-10 sm:w-12" />
                 <Skeleton className="h-3 w-6 sm:w-8" />
